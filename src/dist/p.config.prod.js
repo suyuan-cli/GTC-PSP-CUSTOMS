@@ -1,0 +1,1 @@
+"use strict";module.exports={proxy_url:"http://14.23.157.98:8090",apphead:"/fbacs",base_image_url:"/base_image_url/",download_url:"/download_url/",isFilterMenu:!0};

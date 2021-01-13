@@ -1,0 +1,51 @@
+.status-low {
+  color: #86d329;
+}
+.status-middle {
+  color: #ffa735;
+}
+.status-high {
+  color: #d35729;
+}
+
+.status-btn {
+  min-width: 100px;
+  height: 28px;
+  font-size: 12px;
+  line-height: 10px;
+}
+.status-info-btn {
+  background: #f0f0f0;
+  border-color: #f0f0f0;
+  color: #999999;
+  border-radius: 3px;
+}
+
+.status-info-btn:hover {
+  background: #d5d5d5;
+  border-color: #d5d5d5;
+}
+
+.status-primary-btn {
+  background: #3195ff;
+  border-color: #3195ff;
+  border-radius: 3px;
+  color: #fff;
+}
+.status-primary-btn:hover{
+  background: #367ded;
+  border-color: #367ded;
+}
+.status-save-btn {
+  background: #feba37;
+  border-color: #feba37;
+  border-radius: 3px;
+  color: #fff;
+}
+.status-save-btn:hover{
+  background: #eeab37;
+  border-color: #feba37;
+}
+.primary-color {
+  color: #3195ff;
+}

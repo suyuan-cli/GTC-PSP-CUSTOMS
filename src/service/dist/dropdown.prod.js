@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.getDropDownList=getDropDownList;var _axios=_interopRequireDefault(require("./axios"));function _interopRequireDefault(e){return e&&e.__esModule?e:{default:e}}function getDropDownList(){return _axios.default.post("/access/FRONT-COMM/FRONTCOMMCODE010",params)}
