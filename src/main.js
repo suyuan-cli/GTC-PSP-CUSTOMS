@@ -31,7 +31,18 @@ Vue.use(ElementUI, {
   size: 'small'
 });
 
-Vue.prototype.$axios = axios;
+
+import suyuanUi from 'suyuan-ui';
+Vue.use(suyuanUi)
+
+
+  <% if (useSuyuanUi) { %>
+  import suyuanUi from 'suyuan-ui';
+    Vue.use(suyuanUi)
+      <% } %>
+
+
+        Vue.prototype.$axios = axios;
 import hc from '@/public-method/HhcJump.js';
 
 (async function () {
